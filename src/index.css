@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+@import "tailwindcss";
+
+:root {
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  min-height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: "Poppins", "Segoe UI", sans-serif;
+  background: radial-gradient(circle at top left, #141d2e 0%, #080a0f 50%, #05060a 100%);
+  color: #e6edf7;
+}
+
+.excalidraw-bg {
+  background-image:
+    radial-gradient(circle at 100% 0%, rgba(87, 211, 255, 0.13), transparent 34%),
+    radial-gradient(circle at 0% 100%, rgba(84, 255, 194, 0.1), transparent 40%),
+    linear-gradient(135deg, rgba(17, 21, 31, 0.92), rgba(8, 10, 15, 0.98));
+}
