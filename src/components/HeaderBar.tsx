@@ -22,7 +22,7 @@ export function HeaderBar({ user, onLogout }: HeaderBarProps) {
       <Toolbar className="flex gap-3">
         <CropSquareIcon sx={{ color: "#57d3ff" }} />
         <Typography variant="h6" fontWeight={700} sx={{ letterSpacing: 0.6, flexGrow: 1 }}>
-          Excalidraw Clone Workspace
+          Shared Canvas Workspace
         </Typography>
         {user ? (
           <Stack direction="row" spacing={1.5} alignItems="center">
